@@ -63,3 +63,139 @@ nav ul li a{
 .hamberger-manu{
   display: none;
 }
+#about{
+  margin-right: 15px;
+}
+
+
+
+#home{
+  background:rgba(230, 83, 60, 1);
+  padding: 9px 25px;
+  border-radius: 40px;
+}
+
+/* banner section style start here */
+.banner-container{
+  display: flex;
+ 
+  width: 90%;
+  margin: 20px auto;
+  height: 500px;
+  box-sizing: border-box;
+}
+
+.banner-text-section{
+ 
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.text{
+  width: 70%;
+ 
+
+}
+.text h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+#shape{
+  font-family: Edwardian Script ITC;
+  font-weight: 300;
+  font-size: 7rem;
+}
+
+
+.download-btn{
+  
+  color: white;
+  padding: 10px 15px;
+  border-radius: 40px;
+ border: 2px solid white;
+  font-size: 1rem;
+  font-weight: bold;
+  background: #000;
+  margin-bottom: 1rem;
+}
+.banner-img-section{
+  width: 50%;
+ 
+  
+}
+.banner-img-section img{
+  margin-left: 3.5rem;
+  height: 480px;
+}
+.video-tutorial{
+  display: flex;
+  
+  gap: 10px;
+  width: 190px;
+  position: relative;
+  bottom: 120px;
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+ 
+}
+.glass{
+  backdrop-filter: blur(10px);
+}
+
+
+.color{
+  background: rgba(230, 83, 60, 1);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.workout-videos{
+ 
+  width: 200px;
+  position: relative;
+  bottom: 413px;
+    left: 230px;
+    padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+}
+
+/* banner section style end here */
+
+/* change habit section style start here */
+.change-habit-section-heading{
+  
+  text-align: center;
+  margin-top: 6rem;
+ }
+ .change-habit-section-heading h1{
+   font-size: 3rem;
+   margin-bottom: 1.1rem;
+ }
+ .change-habit-cards{
+   width: 90%;
+   margin: 0px auto;
+   display: flex;
+   gap: 1.5rem;
+   margin-top: 35px;
+ }
+ 
+ .change-habit-card{ 
+   width: 250px;
+   text-align: center;
+ }
+ .change-habit-card h2{
+ margin-bottom: 15px;
+ }
+ .change-habit-card img{
+ width: 200px;
+ height: 200px;
+ border-radius: 50%;
+ margin-bottom: 15px;
+ }
+ /* change habit section style end here */
